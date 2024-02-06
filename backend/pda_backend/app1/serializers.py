@@ -12,14 +12,17 @@ class UserSerializer(ModelSerializer):
         fields = [
             'username',
             'password',
-            # 'email',
+            'first_name'
+            'last_name'
             # 'pid',
         ]
 
     def create(self, data):
         pid = data.get('pid', '')
         user = AppUser.objects.create(
-            username=data['username'],
+            username = data['username'],
+            first_name = data['first_name'],
+            last_name = data['last_name'],
             # email=data['email'],
             # pid=pid,
         )
