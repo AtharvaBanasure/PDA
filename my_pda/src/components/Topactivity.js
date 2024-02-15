@@ -4,7 +4,7 @@ import PDA_quiz from '../assets/img/PDA_quiz.png';
 import PDA_coding from '../assets/img/PDA_coding.jpg';
 import PDA_resume from '../assets/img/PDA_resume.jpeg';
 function Topactivity() {
-  return (
+  return (  
     <section className="text-gray-600 body-font">
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-col">
@@ -23,11 +23,12 @@ function Topactivity() {
             </div>
             <h2 className="text-xl font-medium title-font text-gray-900 mt-5">PDA Aptitute</h2>
             <p className="text-base leading-relaxed mt-2">TE IT Students: PDA Skills Test on Jan 27, 10 AM - 1 PM. MCQs on OS, Aptitude, English. Win awards!</p>
-            <a className="text-indigo-500 inline-flex items-center mt-3">Learn More
-              <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
-                <path d="M5 12h14M12 5l7 7-7 7"></path>
-              </svg>
+            <a href="/aptitude_page" target="_blank" class="text-indigo-500 inline-flex items-center mt-3">Learn More
+                <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
             </a>
+
           </div>
           <div className="p-4 md:w-1/3 sm:mb-0 mb-6">
             <div className="rounded-lg h-64 overflow-hidden">
@@ -35,7 +36,7 @@ function Topactivity() {
             </div>
             <h2 className="text-xl font-medium title-font text-gray-900 mt-5">PDA Coding Contest</h2>
             <p className="text-base leading-relaxed mt-2">PDA Coding Contest on Feb 1, 6-8 PM! Showcase coding skills, win prizes!</p>
-            <a className="text-indigo-500 inline-flex items-center mt-3">Learn More
+            <a href="/coding_page" className="text-indigo-500 inline-flex items-center mt-3">Learn More
               <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                 <path d="M5 12h14M12 5l7 7-7 7"></path>
               </svg>
@@ -47,7 +48,7 @@ function Topactivity() {
             </div>
             <h2 className="text-xl font-medium title-font text-gray-900 mt-5">Career Guidance & Resume Building</h2>
             <p className="text-base leading-relaxed mt-2">PDA Career Path Session at IT Seminar Hall. Learn from PhonePe Engineers!</p>
-            <a className="text-indigo-500 inline-flex items-center mt-3">Learn More
+            <a href="/Resume_page" className="text-indigo-500 inline-flex items-center mt-3">Learn More
               <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                 <path d="M5 12h14M12 5l7 7-7 7"></path>
               </svg>

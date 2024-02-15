@@ -7,8 +7,8 @@ function Navbar(props) {
   console.log("logout", props.loginStatus); // Move console.log outside of JSX
 
   return (
-    <div className="m-7">
-      <nav className="bg-white fixed w-full z-20 top-0 start-0 border-b border-gray-200 ">
+    <div className="m-7 ">
+      <nav className="bg-white fixed w-full z-20 top-0 start-0 border-b border-gray-200 mb-4">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-4">
           <div className="flex items-center space-x-3 rtl:space-x-reverse">
             <img src={Logo} className="h-8" alt="Flowbite Logo" />

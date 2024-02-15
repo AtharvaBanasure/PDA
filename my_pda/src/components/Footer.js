@@ -3,8 +3,8 @@ import Logo from "../assets/img/PDA_Logo_trsp.png";
 
 function Footer() {
   return (
-    <footer className="text-white body-font bg-gray-700">
-      <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+    <footer className="text-white body-font bg-gray-700 ">
+      <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col ">
         <a className="flex title-font font-medium items-center md:justify-start justify-center text-white">
           {/* <img src={Logo} className="h-8" alt="Flowbite Logo" /> */}
           {/* <img className="h-8" alt="Flowbite Logo" /> */}
